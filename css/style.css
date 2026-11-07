@@ -1,0 +1,84 @@
+:root{
+  --font-family: "Poppins", sans-serif;
+  --main-color:#fc0;
+  --second-color:#353535;
+
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    background-color: white;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+       
+            /*COMMON CSS AREA*/
+
+body .navbar{
+    background-color:white;
+}
+button{
+    color:black;
+}
+.drawer-body{
+    background-color: #fff;
+}
+
+
+
+.nav-link{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 200%;
+    color: var(--second-color);
+    padding: 18px 22px 5px;
+}
+.active{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 200%;
+    color:var(--second-color);
+    border-bottom: 1px solid black;
+    border-radius: 0%;
+}
+
+#hero .text h5{
+    font-weight: 400;
+    font-size: 24px;
+    color:var(--second-color);
+}
+#hero .text h1{
+    font-weight: 700;
+    font-size: 64px;
+    color:var(--second-color);
+}
+#hero .text p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180%;
+    color:var(--second-color);
+}
+#hero .text .btn{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 180%;
+    color: #fff;
+    border-radius: 20px;
+    background:var(--main-color);
+    width: 209px;
+    height: 69px;
+    margin-right: 38px;
+}
+#hero .text .ghost{
+    border: 1px solid #000;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+    color:var(--second-color);
+    padding: 15px 45px;
+}
